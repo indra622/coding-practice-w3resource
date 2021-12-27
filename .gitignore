@@ -1,4 +1,3 @@
-!*.*
+.vscode
 *.dSYM
 .DS_Store
-ex[0-9]*
