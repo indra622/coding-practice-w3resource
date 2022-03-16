@@ -17,22 +17,19 @@ bool sol(int arr[], int length){
     }
 
     return false;
-    
 }
+
+
 
 int main(void){
     int arr[] = {1,1,2,3,1};
-    int length = sizeof(arr) / sizeof(arr[0]);
-    cout << sol(arr, length) << endl;
-
     int arr2[] = {1,1,2,4,1};
-    int length2 = sizeof(arr2) / sizeof(arr2[0]);
-    cout << sol(arr2, length2) << endl;
-    
-    int arr3[] = {1,1,1,2,3};
-    int length3 = sizeof(arr3) / sizeof(arr3[0]);
-    cout << sol(arr3, length3) << endl;
-    
-
+    int arr3[] = {1,1,2,1,2,3};
+    int len1 = sizeof(arr) / sizeof(arr[0]);
+    int len2 = sizeof(arr2) / sizeof(arr2[0]);
+    int len3 = sizeof(arr3) / sizeof(arr3[0]);
+    cout << sol(arr, len1) << endl;
+    cout << sol(arr2, len2) << endl;
+    cout << sol(arr3, len3) << endl;
     return 0;
 }
